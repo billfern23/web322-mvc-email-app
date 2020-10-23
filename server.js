@@ -28,7 +28,7 @@ app.use("/product", productController);
 
 
 // Start listening
-const PORT = process.env.PORT | 8080;
+const PORT = process.env.PORT;
 
 app.listen(PORT,()=>{
     console.log(`Web Server is up and running, port ${PORT}`);    
