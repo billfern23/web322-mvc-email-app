@@ -2,6 +2,9 @@ const express = require("express");
 const exphbs  = require('express-handlebars');
 const bodyParser = require('body-parser');
 
+const dotenv = require('dotenv');
+dotenv.config({path:"./config/keys.env"});
+
 const app = express();
 
 // Set up Handlebars
